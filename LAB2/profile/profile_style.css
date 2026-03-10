@@ -1,0 +1,95 @@
+/* Сайдбар */
+.sidebar {
+    width: 72px;
+    height: 327vh;
+    border-right: 1px solid #2222220D;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sidebar_icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 12px;
+}
+
+/* Профиль */
+.profile {
+    display: inline-block;
+    width: calc(100% - 80px);
+    vertical-align: top;
+}
+
+.about {
+    margin-right: 120px;
+    display: block;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.about_avatar {
+    display: block;
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    margin: 0 auto 20px auto;
+    object-fit: cover;
+}
+
+.about_name {
+    font: 500 32px/32px Golos UI, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    letter-spacing: -0.25px;
+    text-align: center;
+}
+
+.about_bio {
+    font: 400 15px/18px Golos UI, sans-serif;
+    display: block;
+    margin: 10px auto 15px auto;
+    letter-spacing: -0.15px;
+    text-align: center;
+}
+
+.stats {
+    font: 400 15px/18px Golos UI, sans-serif;
+    display: inline-block;
+    background-color: #F2F3F5;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #222222;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    gap: 6px;
+}
+
+.stats_icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 6px;
+    margin-bottom: 3px;
+}
+
+.gallery {
+    font-size: 0;
+    display: inline-block;
+    width: 1000px;
+    margin-left: 163px;
+    margin-bottom: 30px;
+}
+
+.gallery_item {
+    display: inline-block;
+    width: 322px;
+    height: 322px;
+    object-fit: cover;
+    border-radius: 2px;
+    vertical-align: top;
+    margin: 2.5px 2.5px;
+}
