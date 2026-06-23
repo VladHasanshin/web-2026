@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    min-height: 100vh;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.decoration {
+    position: relative;
+}
+
+.decoration__title {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    z-index: 1;
+    color: #222222;
+    font: 700 140px/180px "Golos UI", sans-serif;
+    letter-spacing: -1.5px;
+    margin: 0;
+}
+
+.decoration__image {
+    width: 462px;
+    height: 501px;
+    display: block;
+    object-fit: cover;
+}
+
+.form {
+    width: 343px;
+    margin-left: 107px;
+}
+
+.field {
+    margin-top: 16px;
+}
+
+.field__label {
+    color: #222222;
+    font: 400 15px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.field__input {
+    background-color: #F2F3F5;
+    width: 343px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Golos UI", sans-serif;
+    font-size: 14px;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.field__description {
+    color: #808080;
+    font: 400 13px/16px "Golos UI", sans-serif;
+    letter-spacing: -0.08px;
+    margin-top: 5px;
+}
+
+.form__button {
+    color: #FFFFFF;
+    background-color: #222222;
+    font: 500 16px/48px "Golos UI", sans-serif;
+    border-radius: 10px;
+    width: 343px;
+    height: 48px;
+    margin-top: 32px;
+    padding: 0 16px;
+    border: none;
+}

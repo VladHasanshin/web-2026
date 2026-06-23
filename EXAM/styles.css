@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-form {
+    color: white;
+    background-color: #222222;
+    font: 500 16px/48px "Golos UI", sans-serif;
+    border-radius: 10px;
+    width: 343px;
+    height: 48px;
+    margin-top: 32px;
+    padding: 0 16px;
+    border: none;
+    display: block;
+}
+
+.field {
+   margin-top: 16px; 
+}
+
+.field__label {
+    color: #222222;
+    font: 400 15px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;    
+}
+
+.field__input {
+    background-color: #F2F3F5;
+    width: 343px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Golos UI", sans-serif;
+    font-size: 14px;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.form__button {
+    color: #FFFFFF;
+    background-color: #222222;
+    font: 500 16px/48px "Golos UI", sans-serif;
+    border-radius: 10px;
+    width: 343px;
+    height: 48px;
+    margin-top: 32px;
+    padding: 0 16px;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: flex;
+}

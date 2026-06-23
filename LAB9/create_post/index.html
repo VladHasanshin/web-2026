@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Создание поста • Социальная сеть</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./create_post_style.css">
+    <script src="./create_post.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="create-post-container">
+        <div class="create-post-header">
+            <a href="/LAB9/home" class="create-post-header__back">
+                <span class="create-post-header__back-arrow">&lt</span>
+            </a>
+            <h1 class="create-post-header__title">Новый пост</h1>
+        </div>
+        <div id="statusMessage" class="hidden"></div>
+        <div class="create-post-content">
+            <div class="upload-zone">
+                <button class="upload-zone__button-nav upload-zone__button-nav-prev">&lt</button>
+                <button class="upload-zone__button-nav upload-zone__button-nav-next">&gt</button>
+                <div class="upload-zone-placeholder">
+                    <img class="upload-zone-placeholder__icon" src="./img/painting_icon.png" alt="Painting">
+                    <button class="upload-zone-placeholder__button">Добавить фото</button>
+                </div>
+                <div class="upload-zone__gallery"></div>
+                <div class="upload-zone__counter"></div>
+            </div>
+            
+            <input type="file" class="upload-zone__file-input" accept="image/*" multiple>
+            
+            <button class="add-photo">
+                <span class="add-photo__icon"><img width="16" height="16" src="./img/Plus-square.svg" alt=""></span>
+                Добавить фото
+            </button>
+            <div class="text-containter">
+                <textarea class="text-containter__area" placeholder="Добавьте подпись..." rows="1"></textarea>
+            </div>
+            <button class="create-post-content__share" disabled>Поделиться</button>
+        </div>
+    </div>
+</body>
+</html>

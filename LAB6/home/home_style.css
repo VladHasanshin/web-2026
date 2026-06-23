@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+/* Сайдбар */
+.sidebar {
+    width: 72px;
+    height: 100vh;
+    border-right: 1px solid #2222220D;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    gap: 16px;
+    padding-top: 40px;
+}
+
+.sidebar__icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+/* Лента */
+.feed {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 50px;
+}
+
+/* Пост */
+.post, .post-new {
+    display: flex;
+    flex-direction: column;
+    width: 474px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;   
+}
+
+.user-info__image {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.user-info__name {
+    font: 500 14px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    margin: 0;
+    color: #222222;
+}
+
+.user__edit-icon {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.post__image {
+    width: 474px;
+    height: 474px;
+    margin-bottom: 16px;
+    object-fit: cover;
+    display: block;
+}
+
+.reaction {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    background-color: #2222220D;
+    border-radius: 8px;
+    padding: 6px 12px;
+    width: fit-content;
+}
+
+.reaction__emoji {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.reaction__emoji-count {
+    font: 400 15px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.post__text {
+    font: 400 15px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    color: #222222;
+    font-size: 15px;
+    margin: 16px 0 0 0;
+}
+
+.post__and {
+    margin: 0 0 8px 0;
+    color: #808080;
+    font: 400 15px/18px "Golos UI", sans-serif; 
+    letter-spacing: -0.15px;
+    text-decoration: none;
+}
+
+.post__time {
+    font: 400 14px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    color: rgba(34, 34, 34, 0.5);
+    margin-top: 8px;
+}
+
+.new-photo {
+    background-color: #F2F3F5;
+    height: 474px;
+    width: 474px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.new-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.new-content__image {
+    width: 81px;
+    height: 81px;
+    display: block;
+}
+
+.new-content__button {
+    width: 146px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 0 16px;
+    background-color: #222222;
+    color: #FFFFFF;
+    font: 500 16px/1 Golos UI, sans-serif;
+    border: none;
+}
+
+.add-photo {
+    margin: 20px 0 16px 0;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+    width: 124px;
+    height: 30px;
+}
+
+.add-photo__blue-plus {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 4px;
+}
+
+.add-photo__link {
+    font: 400 15px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    color: #3F8AE0;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.post-new__caption {
+    font: 400 15px/18px "Golos UI", sans-serif;
+    letter-spacing: -0.15px;
+    color: #808080;
+    text-decoration: none;
+    display: block;
+}
+
+.feed__share {
+    width: 140px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 0 16px;
+    font: 400 16px/1 Golos UI, sans-serif;
+    color: #FFFFFF;
+    background-color: #B4B4B4;
+    border: none;
+    margin-right: 335px;
+    margin-bottom: 32px;
+    margin-top: 359px;
+}

@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+/* Сайдбар */
+.sidebar {
+    width: 72px;
+    height: 100vh;
+    border-right: 1px solid #2222220D;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    gap: 24px;
+    padding-top: 40px;
+}
+
+.sidebar__icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+/* Профиль */
+.profile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    text-align: center;
+    padding: 97px 0 42px 0
+}
+
+.about__avatar {
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    margin: 0 auto 20px auto;
+    object-fit: cover;
+}
+
+.about__name {
+    font: 500 32px/32px Golos UI, sans-serif;
+    display: block;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.25px;
+}
+
+.about__bio {
+    font: 400 15px/18px Golos UI, sans-serif;
+    display: block;
+    margin: 0 auto 12px auto;
+    letter-spacing: -0.15px;
+    text-align: center;
+}
+
+.stats {
+    font: 400 15px/18px Golos UI, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F3F5;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #222222;
+    letter-spacing: -0.15px;
+    width: fit-content;
+}
+
+.stats__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5px;
+    margin: 0 0 40px 0;
+}
+
+.gallery__item {
+    width: 322px;
+    height: 322px;
+    object-fit: cover;
+    border-radius: 2px;
+}
